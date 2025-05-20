@@ -6,7 +6,7 @@ const Pricing = () => (
     <div className="flex flex-col lg:flex-row flex-wrap justify-center gap-6">
       <div className="border rounded p-6 w-full sm:w-[80%] md:w-[45%] max-w-sm mx-auto">
         <h3 className="text-xl font-semibold mb-4">Starter</h3>
-        <p className="text-3xl font-bold mb-4">$499</p>
+        <p className="text-3xl font-bold mb-4">$599</p>
         <p className="text-lg font-bold mb-4">
           $29/mo for Basic Hosting, Domain, SSL management
         </p>
@@ -29,7 +29,7 @@ const Pricing = () => (
       </div>
       <div className="border rounded p-6 w-full max-w-sm mx-auto">
         <h3 className="text-xl font-semibold mb-4">Pro</h3>
-        <p className="text-3xl font-bold mb-4">$999</p>
+        <p className="text-3xl font-bold mb-4">$1099</p>
         <p className="text-lg font-bold mb-4">
           $49/mo for Basic Hosting, Domain, SSL management, Image updates.
         </p>
