@@ -22,11 +22,12 @@ const ContactForm = () => (
       >
         {/* Hidden inputs for Netlify */}
         <input type="hidden" name="form-name" value="contact" />
-        <p className="hidden">
+        <div style={{ display: "none" }}>
           <label>
-            Don’t fill this out if you're human: <input name="bot-field" />
+            Don’t fill this out if you're human:
+            <input name="bot-field" />
           </label>
-        </p>
+        </div>
 
         <input
           type="text"
